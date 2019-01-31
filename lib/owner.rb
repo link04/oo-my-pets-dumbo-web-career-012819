@@ -59,7 +59,7 @@ class Owner
     [:dogs, :cats, :fishes].each { |pet| mooder(pet,"nervous") }
     @pets.each do |type, pets|
      @pets[type] = []
-   end
+    end
   end
   
   def list_pets
