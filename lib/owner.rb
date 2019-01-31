@@ -56,7 +56,7 @@ class Owner
   end
   
   def sell_pets
-    mooder(:dogs,"happy")
+    mooder(:dogs,"nervous")
     mooder(:cats,"happy")
     mooder(:fishes,"happy")
    
