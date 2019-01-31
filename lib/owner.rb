@@ -57,9 +57,6 @@ class Owner
   
   def sell_pets
     [:dogs, :cats, :fishes].each {|pet| mooder(pet,"nervous") }
-    mooder(:dogs,"nervous")
-    mooder(:cats,"happy")
-    mooder(:fishes,"happy")
    
    @pets.each do |type, pets|
      @pets[type] = []
