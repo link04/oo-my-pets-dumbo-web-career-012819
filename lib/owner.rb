@@ -48,11 +48,11 @@ class Owner
   end
   
   def play_with_cats
-    mooder(:dogs,"happy")
+    mooder(:cats,"happy")
   end
   
   def feed_fish
-    mooder(:dogs,"happy")
+    mooder(:fishes,"happy")
   end
   
   def sell_pets
